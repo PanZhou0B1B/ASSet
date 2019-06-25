@@ -14,6 +14,11 @@
 		A12A48FA22B0DED900BD0270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A48F822B0DED900BD0270 /* LaunchScreen.storyboard */; };
 		A12A490322B0DFD500BD0270 /* ASPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A490222B0DFD500BD0270 /* ASPriorityQueue.swift */; };
 		A12A490522B0E46500BD0270 /* ASPriorityQueueViaHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A490422B0E46500BD0270 /* ASPriorityQueueViaHeap.swift */; };
+		A19B910722C1BAEE00EAA2DE /* ASMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B910622C1BAEE00EAA2DE /* ASMap.swift */; };
+		A19B910B22C1BFC200EAA2DE /* ASFlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B910A22C1BFC200EAA2DE /* ASFlatMap.swift */; };
+		A19B910D22C1CCBB00EAA2DE /* ASCompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B910C22C1CCBB00EAA2DE /* ASCompactMap.swift */; };
+		A19B910F22C1EECA00EAA2DE /* ASFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B910E22C1EECA00EAA2DE /* ASFilter.swift */; };
+		A19B911122C1F5CD00EAA2DE /* ASReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B911022C1F5CD00EAA2DE /* ASReduce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,12 @@
 		A12A48FB22B0DED900BD0270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A12A490222B0DFD500BD0270 /* ASPriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPriorityQueue.swift; sourceTree = "<group>"; };
 		A12A490422B0E46500BD0270 /* ASPriorityQueueViaHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPriorityQueueViaHeap.swift; sourceTree = "<group>"; };
+		A19B910622C1BAEE00EAA2DE /* ASMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASMap.swift; sourceTree = "<group>"; };
+		A19B910922C1BCC300EAA2DE /* ASMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ASMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A19B910A22C1BFC200EAA2DE /* ASFlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASFlatMap.swift; sourceTree = "<group>"; };
+		A19B910C22C1CCBB00EAA2DE /* ASCompactMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCompactMap.swift; sourceTree = "<group>"; };
+		A19B910E22C1EECA00EAA2DE /* ASFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASFilter.swift; sourceTree = "<group>"; };
+		A19B911022C1F5CD00EAA2DE /* ASReduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASReduce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 		A12A48EE22B0DED800BD0270 /* ASSet */ = {
 			isa = PBXGroup;
 			children = (
+				A19B910422C1BAAA00EAA2DE /* Swift */,
 				A12A490122B0DF8F00BD0270 /* PriorityQueue */,
 				A12A48EF22B0DED800BD0270 /* AppDelegate.swift */,
 				A12A48F122B0DED800BD0270 /* ViewController.swift */,
@@ -76,6 +88,27 @@
 				A12A490422B0E46500BD0270 /* ASPriorityQueueViaHeap.swift */,
 			);
 			path = PriorityQueue;
+			sourceTree = "<group>";
+		};
+		A19B910422C1BAAA00EAA2DE /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A19B910522C1BACA00EAA2DE /* HighOrder */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		A19B910522C1BACA00EAA2DE /* HighOrder */ = {
+			isa = PBXGroup;
+			children = (
+				A19B910622C1BAEE00EAA2DE /* ASMap.swift */,
+				A19B910A22C1BFC200EAA2DE /* ASFlatMap.swift */,
+				A19B910C22C1CCBB00EAA2DE /* ASCompactMap.swift */,
+				A19B910E22C1EECA00EAA2DE /* ASFilter.swift */,
+				A19B911022C1F5CD00EAA2DE /* ASReduce.swift */,
+				A19B910922C1BCC300EAA2DE /* ASMap.playground */,
+			);
+			path = HighOrder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +184,13 @@
 			files = (
 				A12A490522B0E46500BD0270 /* ASPriorityQueueViaHeap.swift in Sources */,
 				A12A490322B0DFD500BD0270 /* ASPriorityQueue.swift in Sources */,
+				A19B910722C1BAEE00EAA2DE /* ASMap.swift in Sources */,
+				A19B911122C1F5CD00EAA2DE /* ASReduce.swift in Sources */,
+				A19B910F22C1EECA00EAA2DE /* ASFilter.swift in Sources */,
+				A19B910D22C1CCBB00EAA2DE /* ASCompactMap.swift in Sources */,
 				A12A48F222B0DED800BD0270 /* ViewController.swift in Sources */,
 				A12A48F022B0DED800BD0270 /* AppDelegate.swift in Sources */,
+				A19B910B22C1BFC200EAA2DE /* ASFlatMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
